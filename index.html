@@ -1,0 +1,84 @@
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>University Website Design - Easy Tutorials</title>
+<link rel="stylesheet" href="style.css">
+<link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,600,700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"> 
+</head>
+<body>
+   
+        <nav>
+            <a href="index.html"><img src="images/logo-lays.png"></a>
+            <div class="nav-links" id="navLinks">  
+                <i class="fa fa-close" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="#">Product</a></li>
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Recipes</a></li>
+                    <li><a href="#">Flavors That Hit Home</a></li>
+                    <li><a href="#">Where to Buy</a></li>
+                    <li><a href="#">PepsiCo Tasty Rewards</a></li>
+                    <li><input type="button" a href="#">ES</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>   
+  
+    
+    
+<!------- about us content -------->
+    
+
+    <div class="row">
+        
+            <img src="images/LAY A-1 BannerLeaguesCup_2024_(1920x715) Lays copia.jpg">
+        
+    </div>    
+<!------- aproduct -------->
+<div class="product">
+    <h1>Product</h1>
+    
+<div class="outer">
+    <div class="inner-img">
+        <img src="images/Stax SCO.png" alt="">
+    </div> 
+    <div class="inner-img">
+        <img src="images/XL Poppables Sea Salt copy.png" alt="">
+    </div> 
+    <div class="inner-img">
+        <img src="images/Wavy Original_0.png" alt="">
+    
+    </div>
+</div>
+    
+<!-------- footer ---------->
+
+<section class="footer">
+        <h4>About Us</h4>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque aliquet turpis nulla, eleifend faucibus est<br>sollicitudin ut. Maecenas ut venenatis ex, et dapibus purus.</p>
+        <div class="icons">
+            <i class="fa fa-facebook"></i>
+            <i class="fa fa-twitter"></i>
+            <i class="fa fa-instagram"></i>
+            <i class="fa fa-linkedin"></i>
+        </div>
+        <p>made with <i class="fa fa-heart-o"></i> by lays</p>
+</section>    
+  
+  
+<!----JavaScript for toggle menu---->
+<script>
+    var navLinks = document.getElementById("navLinks");
+
+    function showMenu() {
+        navLinks.style.right = "0";
+    }
+
+    function hideMenu() {
+        navLinks.style.right = "-200px";
+    }
+</script> 
+    
+</body>
+</html>    

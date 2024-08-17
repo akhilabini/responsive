@@ -1,0 +1,227 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+nav{
+   
+   background-image: url(images/bg-recipes3.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    overflow: hidden;
+}
+
+nav{
+    display: flex;
+    padding: 2% 4%;
+    justify-content: space-between;
+    align-items: center;
+}
+nav img{
+    width: 135px;
+}
+.nav-links{
+    flex: 1;
+    text-align: right;
+}
+.nav-links ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 8px 12px;
+    position: relative;
+}
+.nav-links ul li a{
+    color: #444;
+    text-decoration: none;
+    font-size: 13px;
+    font-weight: 1500;
+}
+.nav-links ul li::after{
+    content: '';
+    width: 0%;
+    height: 2px;
+    background: #f44336;
+    display: block;
+    margin: auto;
+    transition: .5s;    
+}
+.nav-links ul li:hover::after{
+    width: 100%;
+}
+nav .fa{
+    display: none;
+}
+
+
+@media(max-width: 700px)
+{
+   .nav-links ul li
+    {
+        display: block;
+    }
+    .nav-links
+    {
+        position: fixed;
+        background: #f44336;
+        height: 100vh;
+        width: 200px;
+        top: 0;
+        right: -200px;
+        text-align: left;
+        z-index: 2;
+        transition: 0.5s;
+    }
+    .nav-links ul{
+        padding: 30px;
+    }
+    nav .fa{
+        display: block;
+        color: #fff;
+        margin: 10px;
+        font-size: 22px;
+        cursor: pointer; 
+    }
+    .text-box h1{
+        font-size: 20px;
+    }
+}
+
+/*---------- banner--------*/
+
+
+.row img{
+    margin-top: 2%;
+    display: flex;
+    justify-content: space-between;  
+    width: 100%;
+}
+
+  /*---------- product--------*/
+
+  .product{
+    background-color: #ee3124;
+    background-image: url(images/bg-products2.jpg) ;
+    background-position: left top, left bottom;
+    background-repeat: no-repeat, no-repeat;
+    margin-top: 2%;
+    box-sizing: border-box;
+    display: block;
+    height: max-content;
+    flex-wrap: wrap;
+   
+   
+   
+  }
+
+  .product h1{
+    font-size: 95px;
+    line-height: 1;
+    position: relative;
+    text-align: left;
+    margin: 0 0 30px;
+    color: #f0f0f0;
+  }
+  .product .outer{
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  .outer .inner-img {
+    display: flex;
+    position: relative;
+    width: 352px;
+    margin-left: 20px;
+   
+    
+  }
+  .outer .inner-img img{
+    width: 100%;
+    height: auto;
+    margin-bottom: 500px;
+    
+
+  }
+
+
+  @media (max-width:700px){
+    .product{
+        flex-direction: column;
+    }
+    .product h1{
+        font-size: 55px;
+    }
+
+    .outer .inner-img {
+        flex-direction: column;
+        
+       
+    }
+    
+} 
+
+@media (max-width:700px){
+    .row{
+        flex-direction: column;
+    }
+} 
+
+
+
+
+
+@media(max-width:700px){
+    .testimonial-col img{
+        margin-left: 0px;
+        margin-right: 15px;
+    }
+}
+
+/*-------- Call To Action ----------
+    }
+}
+
+/*--------------Footer---------------*/
+
+.footer{
+    width: 100%;
+    text-align: center;
+    padding: 30px 0;
+}
+.footer h4{
+    margin-bottom: 25px;
+    margin-top: 20px;
+    font-weight: 600;
+}
+0;
+}
+
+
+@media (max-width:700px){
+    .sub-header h1{
+        font-size: 24px;
+    }
+} 
+
+
+
+
+.footer-link{
+    text-decoration: none;
+    color: #777;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
