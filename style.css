@@ -2,6 +2,10 @@
     margin: 0;
     padding: 0;
     font-family: 'Poppins', sans-serif;
+   
+}
+body{
+    background-color: #ffe600;
 }
 nav{
    
@@ -10,13 +14,16 @@ nav{
     background-size: cover;
     position: relative;
     overflow: hidden;
+    max-width:100%;
+    max-height: 150px;
 }
 
 nav{
     display: flex;
-    padding: 2% 4%;
+    padding: 2% 2%;
     justify-content: space-between;
     align-items: center;
+    margin-bottom: 0;
 }
 nav img{
     width: 135px;
@@ -34,8 +41,8 @@ nav img{
 .nav-links ul li a{
     color: #444;
     text-decoration: none;
-    font-size: 13px;
-    font-weight: 1500;
+    font-size: 15px;
+    font-weight: 2000;
 }
 .nav-links ul li::after{
     content: '';
@@ -99,8 +106,207 @@ nav .fa{
 
   /*---------- product--------*/
 
+
+  .main-container{
+    background-image: url(https://www.lays.com/sites/lays.com/themes/lays/img/bg-products2.jpg?1) , url(https://www.lays.com/sites/lays.com/themes/lays/img/bg-products.jpg?1);
+   
+    margin-top: 20px;
+    
+}
+.main-container3 h1{
+    font-size: 95px;
+    line-height: 1;
+    position: relative;
+    text-align: left;
+    margin: 0 0 30px;
+    color: #f0f0f0;
+  }
+
+
+
+
+.main-container h1{
+    font-size: 95px;
+    line-height: 1;
+    position: relative;
+    text-align: left;
+    margin: 0 0 30px;
+    color: #f0f0f0;
+  }
+
+  .main-container2 h1{
+    font-size: 95px;
+    line-height: 1;
+    position: relative;
+    text-align: left;
+    margin: 0 0 30px;
+    color: #f0f0f0;
+  }
+  .main-container2{
+    background-image: url(https://www.lays.com/sites/lays.com/themes/lays/img/bg-recipes2.jpg?1) , url(https://www.lays.com/sites/lays.com/themes/lays/img/bg-recipes2.jpg?1);
+  
+    margin-top: 20px;
+    
+}
+
+ 
+.product-title .btn-main {
+    transition: background-color 0.3s ease, color 0.3s ease;
+    border-radius: 30px;
+   
+    display: inline-block;
+    font-size: 16px;
+    line-height: 1;
+    padding: 12px 30px;
+    text-decoration: none;
+    text-align: center;
+    background: #da291c;
+    position: relative;
+    cursor: pointer;
+    font-family: "MarkOT-Medium", cursive;
+    font-weight: normal;
+    letter-spacing: -0.05em;
+}
+
+.outer .image{
+    display: flex;
+    padding: 120px;
+}
+
+
+/*video*/
+
+.main-container3{
+    background-image: url(https://www.lays.com/sites/lays.com/themes/lays/img/bg-videos.jpg?1) , url(https://www.lays.com/sites/lays.com/themes/lays/img/bg-videos.jpg?1);
+   
+    margin-top: 20px;
+    
+}
+.main-container2 h1{
+    font-size: 95px;
+    line-height: 1;
+    position: relative;
+    text-align: left;
+    margin: 0 0 30px;
+    color: #f0f0f0;
+  }
+
+.video-container {
+    background-image: url('https://i3.ytimg.com/vi/fpmVYApkB7M/maxresdefault.jpg');
+    background-size: cover;
+    background-position: center;
+    min-height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.video-wrapper {
+
+    position: relative;
+    padding-bottom: 56.25%; /* 16:9 aspect ratio */
+    padding-top: 25px;
+    height: 0;
+    overflow: hidden;
+}
+
+.video-wrapper iframe {
+    position: absolute;
+    top: 100px;
+    left: 320px;
+    width: 650px;
+    height: 600px;
+    border: 0;
+    margin-bottom: 350px;
+}
+
+.text-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 0;
+    background-color:  #00aa4f; /* Semi-transparent background */
+    margin-top: 0;
+    min-height: 0;
+    padding-top: 0;
+}
+/* social */
+.social img{
+    vertical-align: top;
+    max-width: 100%;
+    max-height: 400px;
+    box-sizing: border-box;
+}
+/*
+.card-body img{
+    margin: 0;
+    
+}
+.product-title{
+     height: 150px;
+     width: 336px;
+}
+  .images{
+    display: flex;
+    justify-content: center;
+  }
+
+  .images img{
+    width: 336px;
+  }
+
+  .product-title h3{
+    font-size: 35px;
+    line-height: 40px;
+    max-height: 80px;
+    text-transform: uppercase;
+    color: #fff;
+    font-family: "MarkOT-Bold", sans-serif;
+    font-weight: normal;
+    letter-spacing: -0.05em;
+    text-align: left;
+    cursor: pointer;
+  }
+
+  
+  
+  
+
+  .product-title h3 {
+    font-family: "MarkOT-Bold", sans-serif;
+    font-weight: normal;
+    letter-spacing: -0.05em;
+}
+
+.main-container .outer{
+    position: relative;
+    max-width: 1170px;
+    margin: 0 auto;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
   .product{
-    background-color: #ee3124;
     background-image: url(images/bg-products2.jpg) ;
     background-position: left top, left bottom;
     background-repeat: no-repeat, no-repeat;
@@ -110,18 +316,10 @@ nav .fa{
     height: max-content;
     flex-wrap: wrap;
    
-   
-   
   }
+   
 
-  .product h1{
-    font-size: 95px;
-    line-height: 1;
-    position: relative;
-    text-align: left;
-    margin: 0 0 30px;
-    color: #f0f0f0;
-  }
+  
   .product .outer{
     position: relative;
     overflow: hidden;
@@ -185,7 +383,7 @@ nav .fa{
 
 /*--------------Footer---------------*/
 
-.footer{
+/*.footer{
     width: 100%;
     text-align: center;
     padding: 30px 0;
@@ -213,7 +411,7 @@ nav .fa{
     color: #777;
 }
 
-
+*/
 
 
 
